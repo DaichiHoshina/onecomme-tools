@@ -243,6 +243,12 @@
     margin-left: -4px;
 }
 
+/* トップチャットバッジ（紫色の王冠）を非表示 */
+.badge img[src*="top_contributor"],
+.badge img[src*="top-contributor"] {
+    display: none !important;
+}
+
 /* 13. 幅制限（はみ出し防止） */
 .comment .comment-block,
 .comment .comment-body,

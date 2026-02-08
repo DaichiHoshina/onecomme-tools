@@ -111,6 +111,12 @@
     display: inline-block !important;
 }
 
+/* トップチャットバッジ（紫色の王冠）を非表示 */
+.badge img[src*="top_contributor"],
+.badge img[src*="top-contributor"] {
+    display: none !important;
+}
+
 /* スパチャ・メンシプの金額・メッセージ部分も色を統一 */
 .comment[data-paid="true"] .paid-text,
 .comment[data-paid="true"] .paid-text strong,
