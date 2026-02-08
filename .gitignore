@@ -1,0 +1,16 @@
+# Serena MCP メモリーファイル（個人環境固有）
+.serena/
+
+# Node modules
+node_modules/
+
+# macOS
+.DS_Store
+
+# Editor
+.vscode/
+.idea/
+
+# Environment variables
+.env
+.env.local
